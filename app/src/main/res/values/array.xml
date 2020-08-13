@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+ <string-array name="partnerarray">
+     <item>Административные</item>
+     <item>Технологические</item>
+     <item>DIY</item>
+     <item>Образовательные</item>
+     <item>Семейные</item>
+     <item>Молодежные</item>
+     <item>Информационные</item>
+
+ </string-array>
+</resources>

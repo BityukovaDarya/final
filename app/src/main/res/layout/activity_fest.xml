@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fest"
+    android:background="@color/fon">
+
+    <Button
+        android:id="@+id/aboutfest"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="450dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnreg3"
+        android:fontFamily="@font/fjalla_one"
+        android:text="Узнать больше о фестивале"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/organizator"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="450dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnreg3"
+        android:fontFamily="@font/fjalla_one"
+        android:text="Организаторы"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/backfest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fon"
+        app:srcCompat="@drawable/previous" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/fest" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kontakt"
+    android:background="#C19FE0">
+
+
+    <ImageView
+        android:id="@+id/tg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tg"
+        android:layout_centerHorizontal="true"
+        android:onClick="telegram"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/vk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vk"
+        android:layout_centerHorizontal="true"
+        android:onClick="vkontakte"
+        android:layout_marginTop="350dp"/>
+    <ImageButton
+        android:id="@+id/backfest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C19FE0"
+        app:srcCompat="@drawable/previous" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/lora"
+        android:text="Наш чат-бот в телеграмме"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:fontFamily="@font/lora"
+        android:text="Наша страница Вконтакте"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

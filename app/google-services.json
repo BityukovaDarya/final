@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "887343260356",
+    "firebase_url": "https://testproject-f89b4.firebaseio.com",
+    "project_id": "testproject-f89b4",
+    "storage_bucket": "testproject-f89b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887343260356:android:5aa02544f8353168cf5f91",
+        "android_client_info": {
+          "package_name": "com.example.dasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887343260356-sppu7ac8fl1eekj6sa0kv8vdtid0qh1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9p4cMMeWn1SUQaseK8K4w4d_DYyQ0gE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887343260356-sppu7ac8fl1eekj6sa0kv8vdtid0qh1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887343260356:android:b13924b9e0ceb828cf5f91",
+        "android_client_info": {
+          "package_name": "festivalrukami.com.e.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887343260356-sppu7ac8fl1eekj6sa0kv8vdtid0qh1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9p4cMMeWn1SUQaseK8K4w4d_DYyQ0gE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887343260356-sppu7ac8fl1eekj6sa0kv8vdtid0qh1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

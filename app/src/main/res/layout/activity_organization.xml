@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Organization"
+    android:background="@drawable/organizator">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-4dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/lora"
+            android:text="Детский технопарк «Кванториум» — это уникальная среда
+        для ускоренного развития ребенка по актуальным научно-исследовательским
+         и инженерно-техническим направлениям, оснащенная высокотехнологичным
+         оборудованием. Отличительной особенностью является не только обучение
+          детей инженерному образованию, но и проектной деятельности,
+          ТРИЗ (теория решения изобретательских задач), 4К-компетенциям
+          (коммуникация, креативность, командное решение проектных задач,
+           критическое мышление) и решение реальных производственных
+           задач в сопровождении опытных наставников, в том числе
+           представителей научной школы, промышленности и бизнеса."
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:textSize="30dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="297dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="100dp"
+        app:srcCompat="@drawable/quantorium" />
+
+    <ImageButton
+        android:id="@+id/backfest2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="93dp"
+        android:layout_height="81dp"
+    android:background="@color/white"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+</RelativeLayout>

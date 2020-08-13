@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="festivalrukami.com.e.afinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/roundedbutton" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <activity
+            android:name=".Partner"
+            android:label="@string/title_activity_partner"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Partner" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Konkurs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Konkurs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Organizacii"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Organizacii" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".moreaboutmeiker"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".moreaboutmeiker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Organization"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Organization" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MoreaboutFest"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".MoreaboutFest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chat"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Chat" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kontakt"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Kontakt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Meropr"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Meropr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Meiker"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Meiker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Zone"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Zone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Program"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Program" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Festival"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Festival" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fest"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Fest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".Register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".textcontent_Activity" />
+    </application>
+
+</manifest>
